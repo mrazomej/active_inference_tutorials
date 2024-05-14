@@ -99,3 +99,4 @@ code/exploratory/figs
 code/analysis/*/output/
 code/processing/*/output/
 data/*/*
+ActiveInference/Manifest.toml
