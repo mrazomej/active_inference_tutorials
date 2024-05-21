@@ -358,7 +358,7 @@ model.
 """
 function transfer_matrix(n_row::Int; β=1.0, J=1.0)
     # Generate pair matrix
-    pair_matrix = generate_pair_matrix(n_row)
+    pair_matrix = _generate_pair_matrix(n_row)
 
     # Get number of column states
     num_states = size(pair_matrix, 1)
